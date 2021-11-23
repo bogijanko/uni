@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sortalgorithmanimation.ui.MainWindowController">
+   <children>
+      <Canvas id="bord" fx:id="bord" height="340.0" layoutX="5.0" layoutY="59.0" width="640.0" />
+      <Button id="startAnimation" fx:id="startAnimation" layoutX="25.0" layoutY="23.0" mnemonicParsing="false" onAction="#startAnimation" text="Sortiraj" />
+      <ComboBox id="choiceElements" fx:id="choiceElements" layoutX="100.0" layoutY="23.0" prefWidth="150.0" promptText="Select elements" />
+      <ComboBox id="choiceAlgorithm" fx:id="choiceAlgorithm" layoutX="270.0" layoutY="23.0" prefWidth="150.0" promptText="Select algorithm" />
+   </children>
+</Pane>
